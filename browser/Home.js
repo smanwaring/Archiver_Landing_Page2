@@ -4,9 +4,11 @@ import {Link} from 'react-router';
 class Home extends React.Component {
   render () {
     return (
-      <div>
-        <h1>DOWNLOAD ARCHIVER</h1>
-        <img src="/public/images/archiver_logo_words_2.png"/>
+      <div className="row">
+        <div className="">
+          <h1 id="h1-home">DOWNLOAD ARCHIVER</h1>
+          <img src="/public/images/archiver_logo_words_2.png"/>
+        </div>
       </div>
     )
   }
